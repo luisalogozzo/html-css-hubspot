@@ -7,6 +7,11 @@
 body {
   font-family: 'Montserrat', sans-serif;
 }
+
+a {
+  text-decoration: none;
+}
+
 .clearfix {
   content: '';
   display: table;
@@ -21,6 +26,10 @@ body {
   float: right;
 }
 
+.list-style-none {
+  list-style: none;
+}
+
 .button-big {
   display: inline-block;
   color: white;
@@ -29,27 +38,84 @@ body {
   text-decoration: none;
   border-radius: 3px;
   font-weight: 500;
+}
 
+.button-small {
+ color: white;
+ background-color: #ff7a59;
+ text-decoration: none;
+ border-radius: 3px;
+ padding: 16px 9px;
 }
 
 .header-first-row-background {
   width: 100%;
-  background: yellow;
+  background: #F5F8FA;
   height: 75px;
+  border-bottom: 1px solid grey;
 }
 
 .header-first-row-container {
   width: 70%;
   height: 75px;
-  background: pink;
   margin: auto;
+  border-bottom: 1px solid grey;
+
 }
 
-.header-first-row {
+.header-first-row-left {
   width: 50%;
   height: 75px;
   line-height: 75px;
-  background-color: pink;
+}
+
+.header-first-row-left ul li {
+  color: #33475b;
+  display: inline-block;
+  padding-right: 18px;
+  border-right: 2px solid #33475b;
+}
+
+.header-first-row-left ul li:first-child {
+  line-height: 25px;
+  padding-right: 20px
+}
+.header-first-row-left ul li:last-child {
+  border: none;
+  padding-left: 16px;
+}
+
+.header-first-row-left ul li a {
+  color: inherit;
+}
+
+.header-first-row-right {
+  width: 50%;
+  height: 75px;
+  line-height: 75px;
+  text-align: right;
+}
+
+
+
+.header-first-row-right ul li {
+  display: inline-block;
+  /* padding-left: 16px; */
+}
+
+.search {
+  text-decoration: none;
+  color: #01A4BD;
+}
+
+.login {
+  background-color: white;
+  border: 1px solid #ff7a59;
+  border-radius: 5px;
+  padding: 16px 16px;
+  text-decoration: none;
+  color: #ff7a59;
+  margin: 0 30px;
 }
 
 .header-2nd-row-background {
@@ -58,6 +124,23 @@ body {
   height: 75px;
 }
 
+.header-2nd-row-container {
+
+  width: 70%;
+  margin: auto;
+  background-color: beige;
+  height: 75px;
+}
+
+.header-2nd-row-left {
+
+}
+.logo {
+
+  transform: translateY(75%);
+}
+
+/* sezione banner */
 .banner-section-background {
   background-color: #FEF7EF;
   background-image: url(../img/jumbotron.png);
