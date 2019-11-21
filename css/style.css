@@ -3,3 +3,59 @@
   padding: 0;
   margin: 0;
 }
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+.clearfix {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.header-first-row-background {
+  width: 100%;
+  background: yellow;
+  height: 75px;
+}
+
+.header-first-row-container {
+  width: 80%;
+  height: 75px;
+  background: pink;
+  margin: auto;
+}
+
+.header-first-row {
+  width: 50%;
+  height: 75px;
+  line-height: 75px;
+  background-color: pink;
+}
+
+.header-2nd-row-background {
+  width: 100%;
+  background: yellow;
+  height: 75px;
+}
+
+.banner-section-background {
+  background-color: #FEF7EF;
+  background-image: url(../img/jumbotron.png);
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+}
+.banner-section {
+  width: 80%;
+  height: 695px;
+  margin: auto;
+
+}
