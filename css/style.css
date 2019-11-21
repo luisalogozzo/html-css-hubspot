@@ -21,6 +21,17 @@ body {
   float: right;
 }
 
+.button-big {
+  display: inline-block;
+  color: white;
+  background-color: #ff7a59;
+  padding: 26px 48px;
+  text-decoration: none;
+  border-radius: 3px;
+  font-weight: 500;
+
+}
+
 .header-first-row-background {
   width: 100%;
   background: yellow;
@@ -28,7 +39,7 @@ body {
 }
 
 .header-first-row-container {
-  width: 80%;
+  width: 70%;
   height: 75px;
   background: pink;
   margin: auto;
@@ -54,10 +65,40 @@ body {
   background-position: 100% 100%;
   background-size: cover;
 
+
 }
 .banner-section {
-  width: 80%;
+  width: 70%;
   height: 695px;
   margin: auto;
+}
 
+.title {
+  padding-top: 75px 0 16px;
+  width: 450px;
+}
+
+.title h1 {
+  color: #33475b;
+  font-size: 55px;
+  line-height: 65px;
+  padding: 27px 0;
+}
+
+.title p {
+  color: #33475b;
+  line-height: 26px;
+}
+
+.title-button {
+  padding: 27px 0 0;
+  width: 240px;
+}
+
+.title-button p {
+  display: inline-block;
+  padding: 27px 0 27px;
+  font-size: 12px;
+  line-height: 18px;
+  color: #33475b;
 }
