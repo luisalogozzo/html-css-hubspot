@@ -52,6 +52,8 @@ body {
   background-image: url(../img/jumbotron.png);
   background-repeat: no-repeat;
   background-position: 100% 100%;
+  background-size: cover;
+
 }
 .banner-section {
   width: 80%;
