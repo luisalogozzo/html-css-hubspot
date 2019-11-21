@@ -148,27 +148,6 @@ a {
   transform: translateY(75%);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* sezione banner */
 .banner-section-background {
   background-color: #FEF7EF;
@@ -212,4 +191,38 @@ a {
   font-size: 12px;
   line-height: 18px;
   color: #33475b;
+}
+
+/* fine header */
+/* inizio main */
+
+.col-section {
+  width: 100%;
+  height: 1523px;
+  background-color: #F5F8FA;
+}
+
+.dice-section {
+  width: 70%;
+  height: 400px;
+  background-color: pink;
+  margin: 0 auto;
+  padding: 34px 0;
+  text-align: center;
+}
+
+.dice-section img {
+  height: 213px;
+  width: auto;
+}
+
+.dice-section h2 {
+  font-size: 32px;
+  line-height: 42px;
+  margin-bottom: 20px;
+}
+
+.dice-section p {
+  line-height: 26px;
+  margin-top: 16px;
 }
