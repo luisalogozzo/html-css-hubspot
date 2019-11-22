@@ -324,3 +324,28 @@ margin-top: 10px;
 .free-hubspot-right ul li:first-child  i{
   margin-left: 0;
 }
+
+.three-col-section {
+  width: 70%;
+  margin: auto;
+  margin-top: 35px;
+}
+
+.vertical-column {
+  width: 30%;
+  height: 200px;
+  background-color: yellow
+}
+
+.vertical-column img {
+  width: 100px;
+  height: auto;
+}
+
+.vertical-column-center{
+  margin: 0 5% 0;
+}
+
+.vertical-column-top {
+  text-align: center;
+}
