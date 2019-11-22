@@ -535,9 +535,13 @@ footer {
   background-color: darkgrey;
 }
 
+.footer-nav ul {
+  width: 25%;
+}
+
 .footer-nav ul li {
   display: block;
-    padding: 8px;
+  padding: 8px;
 }
 
 .footer-nav ul li a {
@@ -550,6 +554,17 @@ footer {
 
 }
 
-.footer-nav ul li a {
+#button-footer {
+  display: inline-block;
+  font-size: 12px;
+  padding: 9px 16px;
+  color: #33475b;
+  background-color: white;
+  border-radius: 4px;
+  margin: 3px 0;
+}
 
+.social-logo ul li {
+  display: inline-block;
+  margin-left: 6px;
 }
