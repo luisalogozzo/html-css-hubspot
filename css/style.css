@@ -31,8 +31,13 @@ a {
   list-style: none;
 }
 
-.angle-down {
-  margin: 0 6px;
+.angle-down,
+.false-checkbox {
+  margin: 0 7px;
+}
+
+.false-checkbox {
+  color: #ff7a59;
 }
 
 .button-big {
@@ -41,7 +46,7 @@ a {
   background-color: #ff7a59;
   padding: 26px 48px;
   text-decoration: none;
-  border-radius: 3px;
+  border-radius: 5px;
   font-weight: 500;
 }
 
@@ -49,7 +54,7 @@ a {
  color: white;
  background-color: #ff7a59;
  text-decoration: none;
- border-radius: 3px;
+ border-radius: 5px;
  padding: 16px 9px;
 }
 
@@ -205,7 +210,7 @@ a {
 .dice-section {
   width: 70%;
   height: 400px;
-  background-color: pink;
+  background-color: #F5F8FA;
   margin: 0 auto;
   padding: 34px 0;
   text-align: center;
@@ -225,4 +230,76 @@ a {
 .dice-section p {
   line-height: 26px;
   margin-top: 16px;
+}
+
+.free-hubspot {
+
+  height: 300px;
+  width: 70%;
+  margin: auto;
+  background-color: white;
+  margin-top: 27px;
+  box-shadow: rgb(234, 240, 246) 0px 0px 11px 0px;
+  border-radius: 4px;
+}
+
+
+.free-hubspot-container {
+  width: 80%;
+  height: 300px;
+  margin: auto;
+  padding: 50px 0;
+
+}
+
+.free-hubspot-left {
+  position: relative;
+  width: 25%;
+  height: 100%;
+  /* background-color: white; */
+  text-align: center;
+  margin-right: 10px;
+}
+
+
+.free-hubspot-left img {
+
+  width: 150px;
+  height: auto;
+  display: inline-block;
+
+}
+
+.free-hubspot-left a {
+margin-top: 10px;
+}
+
+.free-hubspot-right {
+  width: 65%;
+}
+
+.free-hubspot-right h3 {
+  font-size: 22px;
+  line-height: 29px;
+  margin-bottom: 11px;
+}
+
+.free-hubspot-right p {
+  font-size: 14px;
+  line-height: 23px;
+}
+
+.free-hubspot-right h5 {
+  font-size: 16px;
+  line-height: 21px;
+  margin: 26px 0 15px;
+}
+
+.free-hubspot-right ul li {
+  font-size: 14px;
+  display: inline;
+}
+
+.free-hubspot-right ul li:first-child  i{
+  margin-left: 0;
 }
