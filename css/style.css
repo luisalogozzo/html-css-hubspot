@@ -453,13 +453,10 @@ margin-top: 10px;
 }
 
 .section-before-footer {
-  background-color: green;
 }
 
 .customer-section {
   width: 70%;
-  height: 500px;
-  background-color: pink;
   margin: auto ;
   padding-top: 50px;
 }
@@ -475,6 +472,7 @@ margin-top: 10px;
 
 .customer-number p {
   font-size: 15px;
+  line-height: 28px;
 }
 
 .customer-logo ul {
@@ -490,4 +488,68 @@ margin-top: 10px;
 .customer-logo ul li {
   display: inline-block;
   vertical-align: middle;
+}
+
+.start-growing-section {
+  width: 80%;
+  margin: auto;
+  padding-bottom: 52px;
+}
+
+.start-growing-text {
+  padding-top: 50px;
+  width: 40%;
+}
+
+.start-growing-text h2 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 45px;
+}
+
+.start-growing-text p{
+  line-height: 28px;
+  margin-bottom: 45px;
+}
+
+.start-growing-text a {
+  margin-bottom: 30px;
+}
+
+.start-growing-img img {
+  width: 320px;
+  height: auto;
+}
+
+footer {
+ color: white;
+ background-color:  #33475A;
+ height: 600px;
+}
+
+.footer-nav {
+  width: 80%;
+  height: 360px;
+  margin: auto;
+  padding-top: 38px;
+  background-color: darkgrey;
+}
+
+.footer-nav ul li {
+  display: block;
+    padding: 8px;
+}
+
+.footer-nav ul li a {
+  color: inherit;
+}
+
+.footer-nav ul li h6 {
+  font-size: 16px;
+  margin-bottom: 16px;
+
+}
+
+.footer-nav ul li a {
+
 }
