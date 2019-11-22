@@ -44,7 +44,7 @@ a {
   display: inline-block;
   color: white;
   background-color: #ff7a59;
-  padding: 26px 48px;
+  padding: 20px 40px;
   text-decoration: none;
   border-radius: 5px;
   font-weight: 500;
@@ -255,7 +255,6 @@ a {
 .free-hubspot-left {
   position: relative;
   width: 25%;
-  height: 100%;
   /* background-color: white; */
   text-align: center;
   margin-right: 10px;
@@ -264,7 +263,7 @@ a {
 
 .free-hubspot-left img {
 
-  width: 150px;
+  width: 125px;
   height: auto;
   display: inline-block;
 
@@ -281,7 +280,7 @@ margin-top: 10px;
 .free-hubspot-right h3 {
   font-size: 22px;
   line-height: 29px;
-  margin-bottom: 11px;
+  margin-bottom: 25px;
 }
 
 .free-hubspot-right p {
@@ -289,10 +288,32 @@ margin-top: 10px;
   line-height: 23px;
 }
 
+/* .free-hubspot-right h5::after {
+  content: '';
+  position: absolute;
+  height: 5px;
+  margin-left: 10px;
+  border-bottom: 1px solid #e0e6ed;
+  top: 4px;
+  width: 100%;
+} */
+
 .free-hubspot-right h5 {
   font-size: 16px;
   line-height: 21px;
-  margin: 26px 0 15px;
+  margin: 26px 0 20px;
+  overflow: hidden;
+}
+
+.free-hubspot-right h5:after {
+  content:"";
+  display: inline-block;
+  height: 10.5px;
+  vertical-align: bottom;
+  width: 100%;
+  margin-right: -100%;
+  margin-left: 60px;
+  border-top: 1px solid #e0e6ed;
 }
 
 .free-hubspot-right ul li {
