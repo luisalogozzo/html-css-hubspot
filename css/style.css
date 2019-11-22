@@ -38,6 +38,7 @@ a {
 
 .false-checkbox {
   color: #ff7a59;
+  font-size: 20px;
 }
 
 .button-big {
@@ -265,8 +266,6 @@ a {
 
   width: 125px;
   height: auto;
-  display: inline-block;
-
 }
 
 .free-hubspot-left a {
@@ -333,19 +332,59 @@ margin-top: 10px;
 
 .vertical-column {
   width: 30%;
-  height: 200px;
-  background-color: yellow
+  padding: 30px 0 0;
+  background-color: white;
+  box-shadow: rgb(234, 240, 246) 0px 0px 11px 0px;
+  border-radius: 4px;
+
 }
 
-.vertical-column img {
+.vertical-column-top {
+  width: 80%;
+  height: 335px;
+  margin: auto;
+  text-align: center;
+  border-bottom: 1px solid grey;
+}
+
+.vertical-column-top img {
   width: 100px;
   height: auto;
+
+}
+
+.vertical-column-top h3 {
+  font-size: 22px;
+  line-height: 30px;
+  margin: 16px 0 26px;
+}
+
+.vertical-column-top p {
+  font-size: 14px;
+  line-height: 23px;
+}
+
+.popular-features {
+  width: 80%;
+  margin: auto;
+  padding: 30px 0;
+  text-align: center;
+}
+
+.popular-features h5 {
+  margin-bottom: 25px;
+  font-size: 16px;
+}
+
+.popular-features ul {
+  text-align: left;
+  margin-bottom: 50px;
+}
+
+.popular-features ul li {
+  margin-bottom: 5px;
 }
 
 .vertical-column-center{
   margin: 0 5% 0;
-}
-
-.vertical-column-top {
-  text-align: center;
 }
