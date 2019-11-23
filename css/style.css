@@ -170,8 +170,8 @@ a {
 }
 
 .title {
-  padding-top: 75px 0 16px;
-  width: 450px;
+  padding-top: 66px;
+  width: 660px;
 }
 
 .title h1 {
@@ -187,13 +187,13 @@ a {
 }
 
 .title-button {
-  padding: 27px 0 0;
-  width: 240px;
+  padding-top: 36px;
+  width: 330px;
 }
 
 .title-button p {
   display: inline-block;
-  padding: 27px 0 27px;
+  padding-top: 36px;
   font-size: 12px;
   line-height: 18px;
   color: #33475b;
@@ -286,16 +286,6 @@ margin-top: 10px;
   font-size: 14px;
   line-height: 23px;
 }
-
-/* .free-hubspot-right h5::after {
-  content: '';
-  position: absolute;
-  height: 5px;
-  margin-left: 10px;
-  border-bottom: 1px solid #e0e6ed;
-  top: 4px;
-  width: 100%;
-} */
 
 .free-hubspot-right h5 {
   font-size: 16px;
