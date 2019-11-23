@@ -532,8 +532,9 @@ footer {
   height: 360px;
   margin: auto;
   padding-top: 38px;
-  background-color: darkgrey;
 }
+
+
 
 .footer-nav ul {
   width: 25%;
@@ -541,6 +542,7 @@ footer {
 
 .footer-nav ul li {
   display: block;
+  letter-spacing: -1px;
   padding: 8px;
 }
 
@@ -562,6 +564,7 @@ footer {
   background-color: white;
   border-radius: 4px;
   margin: 3px 0;
+  letter-spacing: normal;
 }
 
 .social-logo ul li {
@@ -573,9 +576,9 @@ footer {
   width: 80%;
   height: 70px;
   margin: auto;
-  background-color: pink;
   line-height: 70px;
   text-align: center;
+  border-bottom: 1px solid white;
 }
 
 .languages ul li {
@@ -584,5 +587,30 @@ footer {
 }
 
 .languages ul li a {
+  color: inherit;
+}
+
+.footer-bottom {
+  width: 80%;
+  margin: auto;
+}
+
+.logo-footer {
+padding-top: 40px;
+width: 50%
+}
+
+.footer-copyright {
+  width: 50%;
+  text-align: right;
+  padding-top: 40px;
+}
+
+.footer-copyright ul li {
+  display: inline;
+  margin-left: 26px;
+}
+
+.footer-copyright ul li a {
   color: inherit;
 }
