@@ -45,7 +45,7 @@ a {
   display: inline-block;
   color: white;
   background-color: #ff7a59;
-  padding: 20px 40px;
+  padding: 20px 35px;
   text-decoration: none;
   border-radius: 5px;
   font-weight: 500;
@@ -56,10 +56,16 @@ a {
  background-color: #ff7a59;
  text-decoration: none;
  border-radius: 5px;
- padding: 16px 9px;
+ padding: 10px 9px;
+}
+
+.button-big:hover,
+.button-small:hover {
+  background-color: #FF8F73;
 }
 
 .header-first-row-background {
+  /* position: fixed; */
   width: 100%;
   background: #F5F8FA;
   height: 75px;
@@ -120,10 +126,14 @@ a {
   background-color: white;
   border: 1px solid #ff7a59;
   border-radius: 5px;
-  padding: 16px 16px;
+  padding: 10px 9px;
   text-decoration: none;
   color: #ff7a59;
   margin: 0 30px;
+}
+
+.login:hover {
+  background-color: #FFF7F6;
 }
 
 .header-2nd-row-background {
@@ -511,10 +521,15 @@ margin-top: 10px;
   height: auto;
 }
 
+/* inizio footer */
 footer {
  color: white;
  background-color:  #33475A;
  height: 600px;
+}
+
+footer ul li a:hover{
+  color: #7ED1DE;
 }
 
 .footer-nav {
@@ -523,8 +538,6 @@ footer {
   margin: auto;
   padding-top: 38px;
 }
-
-
 
 .footer-nav ul {
   width: 25%;
@@ -543,7 +556,6 @@ footer {
 .footer-nav ul li h6 {
   font-size: 16px;
   margin-bottom: 16px;
-
 }
 
 #button-footer {
@@ -555,6 +567,10 @@ footer {
   border-radius: 4px;
   margin: 3px 0;
   letter-spacing: normal;
+}
+
+#button-footer:hover {
+  background-color: #EAEDEF;
 }
 
 .social-logo ul li {
@@ -585,6 +601,7 @@ footer {
   margin: auto;
 }
 
+
 .logo-footer {
 padding-top: 40px;
 width: 50%
@@ -604,5 +621,3 @@ width: 50%
 .footer-copyright ul li a {
   color: inherit;
 }
-
-hdgjashj
