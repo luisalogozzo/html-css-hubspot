@@ -427,6 +427,8 @@ margin-top: 10px;
   padding: 40px 0px 40px;
   border-right: 1px solid white;
   border-bottom: 1px solid white;
+  margin: auto;
+  width: 25%;
 }
 
 .grid div:last-child {
@@ -449,8 +451,35 @@ margin-top: 10px;
   font-size: 14.4px;
 }
 
+
 .no-border-bottom {
   border-bottom: none;
+}
+
+@media screen and (max-width: 1268px) {
+  .grid-item {
+    width: 50%;
+  }
+  .grid .grid-item:nth-child(2) {
+    border-right: 0;
+  }
+  .grid .no-border-bottom:nth-child(1),
+  .grid .no-border-bottom:nth-child(2)  {
+    border-bottom: 1px solid white;
+  }
+}
+
+@media screen and (max-width: 634px) {
+  .grid-item {
+    width: 100%;
+  }
+  .grid .grid-item {
+    border-right: 0;
+  }
+  .grid .no-border-bottom:nth-child(3),
+  .grid .no-border-bottom:nth-child(4)  {
+    border-bottom: 1px solid white;
+  }
 }
 
 .section-before-footer {
